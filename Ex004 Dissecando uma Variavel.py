@@ -1,0 +1,2 @@
+Val = (input("digite algo: "))
+print("O tipo da varialvel é {} \n é numerica? {} \n é alphabetica {} \n é alphanumerico? {}\n Esta somente em maiusculas? {} \n Esta somente em minusculas? {} \n Esta Captalizada? {}".format(type(Val), Val.isnumeric(), Val.isalpha(), Val.isalnum(), Val.isupper(), Val.islower(), Val.istitle()))
